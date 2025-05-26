@@ -11,7 +11,7 @@ Serial.begin(9600);
 void loop()  
 {
 int ldrvalue = analogRead(ldrpin);
-Serial.print(Ldrvalue);
+Serial.print(ldrvalue);
 if (ldrvalue<Threshold) 
 {
 digitalWrite(relay, HIGH);
