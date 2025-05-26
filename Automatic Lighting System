@@ -2,7 +2,8 @@
 #define buzzer 5
 #define relay 6
 #define Threshold 500
-void setup() {
+void setup() 
+{
 pinMode(ldrpin, INPUT);
 pinMode(buzzer, OUTPUT);
 pinMode(relay, OUTPUT);
